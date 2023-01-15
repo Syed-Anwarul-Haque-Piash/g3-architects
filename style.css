@@ -172,6 +172,108 @@ margin-top: -195px;
 position: absolute;
 border: none;
 }
+.facts{
+  margin-top: 55px;
+  
+}
+.box-container{
+  display: flex;
+  gap: 50px;
+  margin-left:180px ;
+  
+}
+.box{
+  border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 50px;
+text-align: center;
+margin-bottom: 40px;
+}
+.box-img{
+
+}
+.box-title{
+  font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.box-desc{
+  font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+/* .box-container:hover{
+  transform: rotate(180deg);
+}
+.box:hover{
+  transform: rotate(180deg);
+} */
+.fact-title{
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 700;
+font-size: 45px;
+
+color: #131313;
+}
+.fact-desc{
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.building-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.building-img{
+  border-radius: 8px;
+  height: 250px;
+  width: 200px;
+}
+.sponsor-title{
+  text-align: center;
+  font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 25px;
+}
+.sponsor-desc{
+  font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #727272;
+margin-bottom: 20px;
+}
+.logos{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer{
+  background: #FFF4E7;
+border-radius: 8px;
+text-align: center;
+height: 60px;
+width: 1100px;
+justify-content: center;
+margin-left: 150px;
+margin-bottom: 60px;
+margin-top: 25px;
+}
+.footer-desc{
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+margin-top: 30px;
+}
 @media only screen and (max-width: 576px) {
   header {
     width: 0;
@@ -249,5 +351,46 @@ border: none;
   }
   .desc{
     margin-left: 25px;
+  }
+  .box-container{
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .box{
+    width: 280px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+  }
+  .fact-title{
+    margin-top: 220px;
+    margin-left: 95px;
+  }
+  .fact-desc{
+    margin-left: 15px;
+  }
+  .building-container{
+    flex-direction: column;
+    width: 320px;
+    margin-left: 30px;
+  }
+  .building-img{
+    width: 330px;
+  }
+  .logos{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .sponsor-title{
+    text-align: center;
+  }
+  .sponsor-desc{
+    text-align: center;
+  }
+  .footer{
+    width: 320px;
+    margin-left: 47px;
+    height: 70px;
+    text-align: center;
   }
 }
