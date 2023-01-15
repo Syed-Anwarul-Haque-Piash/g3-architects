@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* header section start */
 header {
   height: 1050px;
   background-color: rgba(255, 14, 167, 0.1);
@@ -66,6 +67,8 @@ nav {
   margin-left: 180px;
   margin-top: 45px;
 }
+/* header section end */
+/* feature section start */
 .features-container {
   display: flex;
   gap: 60px;
@@ -110,6 +113,8 @@ margin: 20px 0px;
     width: 342px;
     height: 342px;
 }
+/* feature section end */
+/* work section start */
 .work{
     display: flex;
     gap: 100px;
@@ -158,6 +163,8 @@ margin-bottom: 15px;
 font-size: 16px;
 color: #727272; 
 }
+/* work section end */
+
 .experience-btn{
     width: 342px;
 height: 200px;
@@ -172,6 +179,7 @@ margin-top: -195px;
 position: absolute;
 border: none;
 }
+/* fact section start */
 .facts{
   margin-top: 55px;
   
@@ -204,10 +212,13 @@ color: #727272;
 }
 /* .box-container:hover{
   transform: rotate(180deg);
-}
-.box:hover{
-  transform: rotate(180deg);
+  cursor: pointer;
 } */
+.box:hover{
+  transform: rotate(360deg);
+  transition: 2s;
+  cursor: pointer;
+} 
 .fact-title{
   margin-left: 150px;
   margin-top: 30px;
@@ -225,6 +236,8 @@ color: #131313;
 font-size: 16px;
 color: #727272;
 }
+/* fact section end */
+/* extra section start */
 .building-container{
   display: flex;
   gap: 30px;
@@ -236,6 +249,8 @@ color: #727272;
   height: 250px;
   width: 200px;
 }
+/* extra section end */
+/* sponsor section start */
 .sponsor-title{
   text-align: center;
   font-weight: 700;
@@ -256,6 +271,8 @@ margin-bottom: 20px;
   justify-content: center;
   margin-bottom: 30px;
 }
+/* sponsor section end */
+/* footer section start */
 .footer{
   background: #FFF4E7;
 border-radius: 8px;
@@ -274,6 +291,7 @@ text-align: center;
 color: #424242;
 margin-top: 30px;
 }
+/* footer section end */
 @media only screen and (max-width: 576px) {
   header {
     width: 0;
